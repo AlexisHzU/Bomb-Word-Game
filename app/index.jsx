@@ -7,11 +7,19 @@ export default function Home(){
         <View style={{margin: "30"}}>
             <Text>Hola chavales</Text>
             <Router_button 
-            Text_button={"hola aunque no parezca soy un boton"}
+            Text_button={"Clasico"}
             Text_router={"/classic"}
             /> 
             
+            <Router_button 
+            Text_button={"Contrarreloj"}
+            Text_router={"/contrarreloj"}
+            />
             
+            <Router_button 
+            Text_button={"Opciones"}
+            Text_router={"/opciones"}
+            />
         </View>
     )
 }
